@@ -20,9 +20,9 @@ end
 
 def remove_last_element(array)
   # Step 1: remove the last element from the array
-
+  array.pop
   # Step 2: return the array (because Step 1 returns the value of the element removed)
-  array
+  
 end
 
 def remove_first_three_elements(array)
@@ -45,15 +45,15 @@ def empty_array?(array)
 end
 
 def reverse(array)
-  # return the reverse of the array
+  array.reverse
 end
 
 def array_length(array)
-  # return the length of the array
+  array.length
 end
 
 def include?(array, value)
-  # return true if the array includes the value
+  array.include?(value)
 end
 
 def join(array, separator)
