@@ -5,6 +5,7 @@ end
 
 def concatenate(string)
   "Hello " + string + "!"
+  # can also use concat method
 end
 
 def substrings(word)
@@ -29,6 +30,7 @@ end
 
 def string_length(string)
   string.length
+  # can also use size method
 end
 
 def reverse(string)
